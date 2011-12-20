@@ -1,3 +1,7 @@
+Under Construction
+==================
+This fork is in development and has yet to fully realize Mobile First functionality. Watch this repo, it's on the way!
+
 Mobile First Foundation
 =====================
 
