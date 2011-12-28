@@ -1,4 +1,4 @@
-# Creates a zip file of the Foundation template and the compessed assets
+# Creates a zip file of the Foundation template and the compressed assets
 
 VERSION_STRING = '2.1.4'
 

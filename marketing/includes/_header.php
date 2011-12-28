@@ -49,7 +49,14 @@
 	<script src="../javascripts/app.js"></script>
 	<script src="swipe.js"></script>
 	<script src="github.js"></script>
-  
+	
+	<!-- Responsive.js -->
+	<!--[if (gt IE 7) & (!IEMobile)]>
+	  <script src="../javascripts/respond.min.js"></script>
+	<![endif]-->
+	  
+	<!-- Responsive Images -->
+	  <script src="../javascripts/responsiveimgs.min.js"></script>
   
   <script>
   $(window).load(function() {

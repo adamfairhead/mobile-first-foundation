@@ -1,0 +1,17 @@
+Mobile First
+************
+
+Pages load the mobile css on small screens. Desktop code only loads when the browser reaches 767px.
+Due to this, Javascript must be enabled on the client's device to see desktop layouts.
+
+The tradeoff is essentially faster load times for mobiles at expense of no-js users.
+
+
+Responsive Images
+*****************
+
+To use Responsive Images, use the following format:
+
+<img src="path/small.jpg?full=path/large.jpg" alt="Image"/>
+
+The small image will load on screens up to 480px. The large one will load on screens 480px+.
