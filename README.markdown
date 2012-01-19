@@ -9,12 +9,12 @@ Foundation's master Homepage:      http://foundation.zurb.com
 
 Foundation is MIT-licensed and absolutely free to use. Mobile First Foundation is maintained by Adam Fairhead of Fairhead Creative.
 
-ZURB
-====
-
-Foundation was made by [ZURB](http://www.zurb.com), an interaction design and design strategy firm in Campbell, CA.
-
 FAIRHEAD CREATIVE
 =================
 
 [Fairhead Creative](http://fairheadcreative.com) is a design agency that creates Websites and Branding for people just like you.
+
+ZURB
+====
+
+Foundation was made by [ZURB](http://www.zurb.com), an interaction design and design strategy firm in Campbell, CA.

@@ -2,9 +2,9 @@ Mobile First
 ************
 
 Pages load the mobile css on small screens. Desktop code only loads when the browser reaches 767px.
-Due to this, Javascript must be enabled on the client's device to see desktop layouts.
+Because of this, Javascript must be enabled on the client's device to see desktop layouts.
 
-The tradeoff is essentially faster load times for mobiles at expense of no-js users.
+The tradeoff is essentially faster loading times for low-powered devices at the expense of no-js users.
 
 
 Responsive Images
