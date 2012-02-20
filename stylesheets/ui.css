@@ -470,3 +470,10 @@
 	  color: #888;
 	  font-weight: normal;
 	}
+	
+	
+/*	--------------------------------------------------
+   	Facebook Comments
+	-------------------------------------------------- */
+  
+  .fb-comments, .fb-comments iframe[style] {width: 100% !important;}
