@@ -1,4 +1,4 @@
-/* Artfully Masterminded by ZURB */
+/* Artfully Masterminded by Fairhead Creative ZURB */
 
 /* -------------------------------------------------- 
     Table of Contents
@@ -68,10 +68,7 @@
 		border-spacing: 0;
 	}
 	
-	
-	
-	body { background: #fff; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; line-height: 18px; color: #555; position: relative; -webkit-font-smoothing: antialiased; }
-	
+	body { background: #fff; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #555; position: relative; -webkit-font-smoothing: antialiased; }
 
 
 /*	--------------------------------------------------
@@ -121,8 +118,11 @@
 /* -------------------------------------------------- 
 	:: Misc
 ---------------------------------------------------*/
-	.left       { float: left; }
-	.right      { float: right; }
-	.hide     	{ display: none; }
-	.highlight 	{ background: #ff0; }
+	.left        { float: left; }
+	.right       { float: right; }
+	.text-left   { text-align: left; }
+	.text-right  { text-align: right; }
+	.text-center { text-align: center; }
+	.hide        { display: none; }
+	.highlight   { background: #ff0; }
 	

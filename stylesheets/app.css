@@ -1,4 +1,4 @@
-/* Artfully masterminded by ZURB & Fairhead Creative  */
+/* Artfully masterminded by Fairhead Creative & ZURB  */
 
 /* -------------------------------------------------- 
    Table of Contents
@@ -13,20 +13,23 @@
    Shared Styles
 ----------------------------------------- */
 
+  /* Write code for Mobile devices first ... */
 
-@media only screen and (min-width: 767px) {
-
-}
+	@media only screen and (min-width: 767px) {
+	
+	  /* ... then use this media query to adapt the design to desktops. */
+	
+	}
 
 /* -----------------------------------------
-   Page Name 1
+:: Page Name 1
 ----------------------------------------- */
 
 
 
 
 /* -----------------------------------------
-   Page Name 2
+:: Page Name 2
 ----------------------------------------- */
 
 

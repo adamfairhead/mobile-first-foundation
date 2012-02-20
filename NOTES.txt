@@ -6,12 +6,4 @@ Because of this, Javascript must be enabled on the client's device to see deskto
 
 The tradeoff is essentially faster loading times for low-powered devices at the expense of no-js users.
 
-
-Responsive Images
-*****************
-
-To use Responsive Images, use the following format:
-
-<img src="path/small.jpg?full=path/large.jpg" alt="Image"/>
-
-The small image will load on screens up to 480px. The large one will load on screens 480px+.
+On the flip side, old desktop browsers like IE6 no longer totally bork your designs; they instead load the mobile design: with a few tweaks, you can provide a basic - yet functional - design to users with really old browsers.

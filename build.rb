@@ -1,6 +1,7 @@
+#!/usr/bin/env ruby
 # Creates a zip file of the Foundation template and the compressed assets
 
-VERSION_STRING = '2.1.4'
+VERSION_STRING = '2.2'
 
 def prepend_text(file_name, text)
   `exec 3<> '#{file_name}' && awk -v TEXT="#{text}" 'BEGIN {print TEXT}{print}' '#{file_name}' >&3`
@@ -14,9 +15,11 @@ end
 `cp stylesheets/ie.css public/src/stylesheets/ie.css`
 `cp stylesheets/app.css public/src/stylesheets/app.css`
 `cp javascripts/app.js public/src/javascripts/app.js`
+`cp javascripts/modernizr.foundation.js public/src/javascripts/modernizr.foundation.js`
+`cp javascripts/jquery.min.js public/src/javascripts/jquery.min.js`
 
 File.open('public/src/stylesheets/foundation.css', "w") do |file|  
-  %w{stylesheets/globals.css stylesheets/typography.css stylesheets/grid.css stylesheets/ui.css stylesheets/forms.css stylesheets/orbit.css stylesheets/reveal.css stylesheets/mobile.css}.each do |stylesheet|
+  %w{stylesheets/globals.css stylesheets/mobile.css stylesheets/typography.css stylesheets/grid.css stylesheets/ui.css stylesheets/forms.css stylesheets/orbit.css stylesheets/reveal.css}.each do |stylesheet|
     file.puts File.read(stylesheet)
   end
 end
