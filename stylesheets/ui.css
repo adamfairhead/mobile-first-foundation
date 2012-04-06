@@ -410,29 +410,26 @@
   	  padding: 5px;
   	  line-height: normal;
   	}
-	}
 	
-	.tooltip > .nub {
-	  display: block;
-	  width: 0;
-	  height: 0;
-	  border: solid 5px;
-	  position: absolute;
-	}
-	
-	.tooltip.tip-left, .tooltip.tip-right, .has-tip.tip-left, .has-tip.tip-right {
-	  float: none !important;
-	}
-	
-	
-	@media only screen and (min-width: 767px) {
+  	.tooltip > .nub {
+  	  display: block;
+  	  width: 0;
+  	  height: 0;
+  	  border: solid 5px;
+  	  position: absolute;
+  	}
+  	
+  	.tooltip.tip-left, .tooltip.tip-right, .has-tip.tip-left, .has-tip.tip-right {
+  	  float: none !important;
+  	}
+  	
   	.tooltip > .nub {
   	  border-color: transparent transparent rgb(0,0,0) transparent;
   	  border-color: transparent transparent rgba(0,0,0,0.8) transparent;
   	  top: -10px;
   	  left: 10px;
   	}
-  	
+	
   	.tooltip.tip-top > .nub {
   	  border-color: rgb(0,0,0) transparent transparent transparent;
   	  border-color: rgba(0,0,0,0.8) transparent transparent transparent;
