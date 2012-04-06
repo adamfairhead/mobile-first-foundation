@@ -5,7 +5,7 @@ Foundation is a rock-solid, responsive framework for rapidly prototyping and ite
 
 Mobile First Foundation is a fork that brings the Mobile First development approach to the Foundation framework. With Mobile First Foundation, you'll be building your site's styles for smallest devices first, giving lower powered devices less to load.
 
-Foundation's master Homepage:      http://foundation.zurb.com
+Mobile First Foundation is currently based on Foundation 2.2. I'll try to keep it inline with the latest version as best as I can.
 
 Foundation is MIT-licensed and absolutely free to use. Mobile First Foundation is maintained by Adam Fairhead of Fairhead Creative.
 
