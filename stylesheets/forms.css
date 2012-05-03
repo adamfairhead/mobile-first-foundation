@@ -44,7 +44,7 @@
 	.form-field.error label, label.red { color: #C00000; }
 	.form-field.error small, small.error { margin-top: -6px; display: block; margin-bottom: 9px; font-size: 11px; color: #C00000; width: 254px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
 
-  @media only screen and (min-width: 767px) {
+  @media only screen and (min-width: 48em) {
   	.small + small.error { width: 134px; }
   	.medium + small.error { width: 254px; }
   	.large + small.error { width: 434px; }
@@ -63,7 +63,7 @@
 	form.nice div.form-field input, form.nice input.input-text, form.nice textarea { outline: none !important; background: url(../images/misc/input-bg.png) #fff; }
 	form.nice div.form-field input:focus, form.nice input.input-text:focus, form.nice textarea:focus { background-color: #f9f9f9; }
 
-  @media only screen and (min-width: 767px) {
+  @media only screen and (min-width: 48em) {
     form.nice div.form-field input, form.nice input.input-text, form.nice textarea { font-size: 13px; padding: 6px 3px 4px; }
   }
 

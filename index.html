@@ -8,12 +8,19 @@
 	<meta charset="utf-8">
 
 	<!-- Set the viewport width to device width for mobile -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Welcome to Mobile First Foundation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow" />
+  <meta name="copyright" content="Your Name" />
   
-	<!-- Included CSS Files -->
-	<!-- Combine and Compress These CSS Files -->
+  <title>Mobile First Foundation</title>
+  <link rel="canonical" href="http://yourdomai.com" />
+  <meta name="description" content="Creative Web Design, Branding and Illustrations for people just like You." />
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0">
+  
+	<!-- Application Framework -->
 	<link rel="stylesheet" href="stylesheets/globals.css">
   <link rel="stylesheet" href="stylesheets/mobile.css">
 	<link rel="stylesheet" href="stylesheets/typography.css">
@@ -22,29 +29,33 @@
 	<link rel="stylesheet" href="stylesheets/forms.css">
 	<link rel="stylesheet" href="stylesheets/orbit.css">
 	<link rel="stylesheet" href="stylesheets/reveal.css">
-	<!-- End Combine and Compress These CSS Files -->
-	<link rel="stylesheet" href="stylesheets/app.css">
-
-	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="stylesheets/ie.css">
-	<![endif]-->
 	
-	<!-- Respond.js -->
-	<!--[if (!IEMobile)]>
-	  <script src="javascripts/respond.min.js"></script>
+	<!-- Thin Displays -->
+	<link rel="stylesheet" href="stylesheets/app.css">
+	
+	<!-- Wide Displays -->
+	<link rel="stylesheet" media="only screen and (min-width: 48em)" href="stylesheets/app-48em.css">
+	
+	<!-- Retina Displays -->
+	<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)" href="stylesheets/app-2x.css">
+	
+  <!-- Old IE -->
+	<!--[if (lt IE 9) & (!IEMobile)]>
+	<link rel="stylesheet" href="stylesheets/app-48em.css">
+	<link rel="stylesheet" href="stylesheets/ie.css">
 	<![endif]-->
 
 	<!-- ImgSizer -->
-	  <script src="javascripts/imgsizer.js"></script>
+	<script src="javascripts/imgsizer.js"></script>
+  
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+  <script src="javascripts/html5.js"></script>
+  <![endif]-->
   
   <!-- Modernizr -->
-    <script src="javascripts/modernizr.js"></script>
+  <script src="javascripts/modernizr.js"></script>
 
-	<!-- IE Fix for HTML5 Tags -->
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	
 	<!-- iOS -->
 	<link rel="apple-touch-icon-precomposed" href="images/icons/apple-touch-icon.png" />
 	

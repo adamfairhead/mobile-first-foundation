@@ -3,7 +3,7 @@
 /*	--------------------------------------------------
     :: Typography
 	-------------------------------------------------- */
-	@media only screen and (min-width: 767px) {
+	@media only screen and (min-width: 48em) {
 	  body { font-size: 13px; font-size: 1.3rem; line-height: 18px; }
 	}
 	
@@ -16,7 +16,7 @@
 	h5 { font-weight: normal; margin-bottom: 3px;  }
 	h6 { font-weight: normal; }
 	
-	@media screen and (min-width: 767px) {
+	@media screen and (min-width: 48em) {
   	h1, h2, h3, h4, h5, h6 { line-height: 1.25 }
   	h1 { font-size: 46px; font-size: 4.6rem; }
   	h2 { font-size: 35px; font-size: 3.5rem; }

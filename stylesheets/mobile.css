@@ -19,9 +19,12 @@
 	:: Grid
 	-------------------------------------------------- */
 	
+	@media only screen and (max-width: 80em) {
+	  body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; } }
+	
 	/* Mobile */
 
-		body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+		body { width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
 		.container { min-width: 0; margin-left: 0; margin-right: 0; }
 		.row { width: 100%; min-width: 0; margin-left: 0; margin-right: 0; }
 		.row .row .column, .row .row .columns { padding: 0; }
@@ -79,7 +82,7 @@
 	
 	
 	/* Modernizr-enabled tablet targeting */
-	@media only screen and (max-width: 1280px) and (min-width: 768px) {
+	@media only screen and (max-width: 80em) and (min-width: 48em) {
 		.touch .hide-on-phones { display: block !important; }
 		.touch .hide-on-tablets { display: none !important; }
 		.touch .hide-on-desktops { display: block !important; }
@@ -104,7 +107,7 @@
 	table.hide-on-phones { display: table !important; }	
 	table.hide-on-tablets { display: table !important; }
 	
-	@media only screen and (max-width: 1280px) and (min-width: 768px) {
+	@media only screen and (max-width: 80em) and (min-width: 48em) {
 		.touch table.hide-on-phones { display: table !important; }
 		.touch table.hide-on-desktops { display: table !important; }
 		.touch table.show-on-tablets { display: table !important; }
@@ -143,7 +146,7 @@
 	
 	/* Tabs */
 	
-	@media only screen and (max-width: 767px) {
+	@media only screen and (max-width: 48em) {
 		dl.tabs.mobile, dl.nice.tabs.mobile { width: auto; margin: 20px -20px 40px; height: auto; }
 		dl.tabs.mobile dt, dl.tabs.mobile dd, dl.nice.tabs.mobile dt, dl.nice.tabs.mobile dd { float: none; height: auto; }
 
@@ -192,7 +195,7 @@
     	left: 10px;
 		}
 		
-		@media only screen and (max-width: 767px) {
+		@media only screen and (max-width: 48em) {
   		.tooltip { max-width: 300px; }
   		.tooltip, .tooltip.left { left: 10px !important; }
   		.tooltip.right { right: 10px !important; }

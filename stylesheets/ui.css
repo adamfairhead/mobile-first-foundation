@@ -42,7 +42,7 @@
 		margin: 0;
 	}
 	
-	@media only screen and (min-width: 767px) {
+	@media only screen and (min-width: 48em) {
 	  .button {
 	    display: inline-block;
 	  }
@@ -282,7 +282,7 @@
   	.flyout { background: #fff; margin: 0; padding: 20px; z-index: 40; }
   	
   	
-  	@media only screen and (min-width: 767px) {
+  	@media only screen and (min-width: 48em) {
   	  .nav-bar { height: 45px; }
   	  .nav-bar>li { float: left; display: block; border-right: 1px solid #ddd; }
   	  .nav-bar>li>a.main { text-align: inherit; border-top: none; }
@@ -402,7 +402,7 @@
 	  border-radius: 4px;
 	}
 	
-	@media only screen and (min-width: 767px) {
+	@media only screen and (min-width: 48em) {
   	.tooltip {
   	  font-weight: bold;
   	  font-size: 12px;

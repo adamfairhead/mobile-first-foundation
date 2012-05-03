@@ -59,7 +59,7 @@
 	
 	/* Mobile */
 		
-		@media handheld, only screen and (max-width: 1023px) {
+		@media handheld, only screen and (max-width: 64em) {
 			.reveal-modal-bg { position: absolute; }
 			
 			.reveal-modal,
@@ -69,7 +69,7 @@
 			.reveal-modal.xlarge { width: 60%; top: 60px; left: 15%; margin-left: 0; padding: 20px; height: auto; }
 		}
 		
-		@media handheld, only screen and (max-width: 767px) {
+		@media handheld, only screen and (max-width: 48em) {
 			.reveal-modal-bg { position: absolute; }
 			
 			.reveal-modal,
