@@ -19,7 +19,7 @@
 	:: Grid
 	-------------------------------------------------- */
 	
-	@media only screen and (max-width: 80em) {
+	@media only screen and (max-width: 48em) {
 	  body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; } }
 	
 	/* Mobile */
