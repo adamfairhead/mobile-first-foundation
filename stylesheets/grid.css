@@ -134,15 +134,16 @@
   /*	--------------------------------------------------
    	:: Responding to Mobile Affordances
   -------------------------------------------------- */
-
-	.hide-on-phones { display: block !important; }
-	.hide-on-tablets { display: block !important; }
-	.hide-on-desktops { display: none !important; }
-	
-	.show-on-phones { display: none !important; }
-	.show-on-tablets { display: none !important; }
-	.show-on-desktops { display: block !important; }
-
-	table.hide-on-desktops { display: table !important; }
-	table.show-on-phones { display: none !important; }
-}
+  
+  @media only screen and (min-width: 48em) {
+  	.hide-on-phones { display: block !important; }
+  	.hide-on-tablets { display: block !important; }
+  	.hide-on-desktops { display: none !important; }
+  	
+  	.show-on-phones { display: none !important; }
+  	.show-on-tablets { display: none !important; }
+  	.show-on-desktops { display: block !important; }
+  
+  	table.hide-on-desktops { display: table !important; }
+  	table.show-on-phones { display: none !important; }
+  }
