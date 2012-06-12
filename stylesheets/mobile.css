@@ -20,7 +20,7 @@
 	-------------------------------------------------- */
 	
 	@media only screen and (max-width: 48em) {
-	  body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; } }
+	  body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
 	
 	/* Mobile */
 
@@ -55,7 +55,7 @@
 		.row .pull-one-phone { right: 26.08% }
 		.row .pull-two-phone { right: 52.2% }
 		.row .pull-three-phone { right: 78.3%; }
-		
+	
 	
 /* --------------------------------------------------
 	:: Block Grids
@@ -65,21 +65,19 @@
 		.block-grid.mobile { margin-left: 0; }
 		.block-grid.mobile > li { float: none; width: 100%; margin-left: 0; }
 
-	
+	}
 
 /* -------------------------------------------------- 
 	:: Mobile Visibility Affordances
 ---------------------------------------------------*/
 	
-	
-	.show-on-phones { display: none !important; }	
-	.show-on-tablets { display: none !important; }
-	.show-on-desktops { display: block !important; }
-	
-	.hide-on-phones { display: block !important; }	
+	.hide-on-phones { display: none !important; }
 	.hide-on-tablets { display: block !important; }
-	.hide-on-desktops { display: none !important; }
+	.hide-on-desktops { display: block !important; }
 	
+	.show-on-phones { display: block !important; }
+	.show-on-tablets { display: none !important; }
+	.show-on-desktops { display: none !important; }
 	
 	/* Modernizr-enabled tablet targeting */
 	@media only screen and (max-width: 80em) and (min-width: 48em) {
@@ -92,13 +90,15 @@
 		.touch .show-on-desktops { display: none !important; }
 	}
 	
-	.hide-on-phones { display: none !important; }
-	.hide-on-tablets { display: block !important; }
-	.hide-on-desktops { display: block !important; }
-	
-	.show-on-phones { display: block !important; }
-	.show-on-tablets { display: none !important; }
-	.show-on-desktops { display: none !important; }
+	@media only screen and (min-width: 48em) {
+  	.show-on-phones { display: none !important; }	
+  	.show-on-tablets { display: none !important; }
+  	.show-on-desktops { display: block !important; }
+  	
+  	.hide-on-phones { display: block !important; }	
+  	.hide-on-tablets { display: block !important; }
+  	.hide-on-desktops { display: none !important; }
+	}
 	
 	
 	/* Specific overrides for elements that require something other than display: block */
